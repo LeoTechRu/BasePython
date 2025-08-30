@@ -11,4 +11,7 @@ COPY . .
 
 EXPOSE 8000
 
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+# Run the application using the module itself as an entrypoint.
+# This ensures that ``uvicorn`` is started via the Python interpreter which is
+# slightly more robust across different environments.
+CMD ["python", "app.py"]
