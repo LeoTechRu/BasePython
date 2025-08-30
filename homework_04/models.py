@@ -16,7 +16,10 @@ from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
 from sqlalchemy.orm import declarative_base, relationship, sessionmaker
 
 
-PG_CONN_URI = os.environ.get("SQLALCHEMY_PG_CONN_URI") or "postgresql+asyncpg://postgres:password@localhost/postgres"
+# Default to a local SQLite database so tests can run without a real Postgres server.
+# The URL can still be overridden via the SQLALCHEMY_PG_CONN_URI environment variable
+# if a different database is desired.
+PG_CONN_URI = os.environ.get("SQLALCHEMY_PG_CONN_URI") or "sqlite+aiosqlite:///homework_04.db"
 
 engine = create_async_engine(PG_CONN_URI, echo=False)
 
