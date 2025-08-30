@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-# BasePython
-https://github.com/OtusTeam/BasePython
-=======
 # Самостоятельная работа по курсу Python Basic
-
+https://github.com/OtusTeam/BasePython
 
 ## Подготовка репозитория для сдачи домашних заданий
 > Выполняя следующие шаги вы подготовите отдельный проект
