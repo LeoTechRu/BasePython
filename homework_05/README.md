@@ -1,6 +1,6 @@
 ### Домашнее задание "Веб-приложение на FastAPI"
 #### Задача:
-- скопируйте папку `homework_05` для этой домашки (Памятка: https://github.com/OtusTeam/BasePython/tree/homeworks)
+- используйте папку `homework_05` для этой домашки (Памятка: https://github.com/OtusTeam/BasePython/tree/homeworks)
 - используйте следующие пакеты:
     - FastAPI
     - uvicorn
