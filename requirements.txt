@@ -1,0 +1,16 @@
+certifi==2025.8.3
+charset-normalizer==3.4.3
+colorama==0.4.6
+docker==7.1.0
+Faker==26.0.0
+idna==3.10
+iniconfig==2.1.0
+packaging==25.0
+pluggy==1.6.0
+pytest==8.3.1
+pytest-asyncio==0.23.8
+python-dateutil==2.9.0.post0
+pywin32==311
+requests==2.32.3
+six==1.17.0
+urllib3==2.5.0
